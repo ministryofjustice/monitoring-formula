@@ -1,4 +1,4 @@
 include:
   - sensu.server
-  - graphite.server
+  - metrics.server
   - logstash.server

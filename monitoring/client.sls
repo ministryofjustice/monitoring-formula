@@ -1,4 +1,4 @@
 include:
   - sensu.client
-  - graphite.client
+  - metrics.client
   - logstash.client
