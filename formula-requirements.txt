@@ -1,3 +1,3 @@
 git@github.com:ministryofjustice/sensu-formula.git
-git@github.com:ministryofjustice/graphite-formula.git
 git@github.com:ministryofjustice/logstash-formula.git
+git@github.com:ministryofjustice/metrics-formula.git
