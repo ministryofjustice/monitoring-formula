@@ -1,4 +1,4 @@
-{% if 'monitoring' in grains %}
+{% if pillar.get('monitoring') %}
 include:
   - sensu.client
   - metrics.client
