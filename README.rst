@@ -1,14 +1,16 @@
 monitoring-formula
 ==================
 
-Graphite, Sensu and Logstash monitoring stack
+Graphite, Sensu and Logstash monitoring stack.
+Virtual states that installs them all.
 
 Pillar variables
 ~~~~~~~~~~~~~~~~
 
-- monitoring
+- monitoring:enabled (default True)
 
-  If it evaluates to True than client side of monitoring will be installed
+  Used to configure whether monitoring should be enabled/installed at all.
+  It's useful as client side of monitoring is an implicit dependency.
 
 
 states
