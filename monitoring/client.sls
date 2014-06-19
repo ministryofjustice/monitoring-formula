@@ -1,4 +1,4 @@
-{% if pillar.get('monitoring:enabled',True) %}
+{% if salt['pillar.get']('monitoring:enabled', True) %}
 include:
   - sensu.client
   - metrics.client
