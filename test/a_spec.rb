@@ -15,6 +15,6 @@ end
 
 describe "sample" do
   it "has a sensu-client package installed" do
-    expect(package('sensu-client')).to be_installed
+    expect(package('collectd')).to be_installed
   end
 end
