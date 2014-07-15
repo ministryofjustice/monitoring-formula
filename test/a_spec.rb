@@ -1,0 +1,20 @@
+# hello world!
+
+require 'serverspec'
+
+
+include Serverspec::Helper::Exec
+include Serverspec::Helper::DetectOS
+
+RSpec.configure do |c|
+  c.before :all do
+    c.path = '/sbin:/usr/sbin'
+  end
+end
+
+
+describe "sample" do
+  it "has a sensu-client package installed" do
+    expect(package('sensu-client')).to be_installed
+  end
+end
