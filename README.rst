@@ -16,7 +16,7 @@ Pillar variables
 Usage
 -----
 
-.. image:: https://raw.githubusercontent.com/ministryofjustice/monitoring-formula/OMGDOCS/monitoring-diagram.png
+.. image:: https://raw.githubusercontent.com/ministryofjustice/monitoring-formula/HEAD/monitoring-diagram.png
 
 
 Available states
