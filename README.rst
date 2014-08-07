@@ -20,7 +20,7 @@ states
 - monitoring.server
 
 Usage
-=====
+-----
 
 .. image:: https://raw.githubusercontent.com/ministryofjustice/monitoring-formula/OMGDOCS/monitoring-server.png
 
