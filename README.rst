@@ -35,7 +35,7 @@ The monitoring server requires the following ports to be open incoming from the 
 
 
 * 2003
-* 2513
+* 2514
 * 5762
 * 6379
 * 80
