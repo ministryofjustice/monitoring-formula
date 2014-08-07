@@ -22,7 +22,7 @@ states
 Usage
 -----
 
-.. image:: https://raw.githubusercontent.com/ministryofjustice/monitoring-formula/OMGDOCS/monitoring-server.png
+.. image:: https://raw.githubusercontent.com/ministryofjustice/monitoring-formula/OMGDOCS/monitoring-diagram.png
 
 
 Server
