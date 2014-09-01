@@ -1,3 +1,7 @@
+## Version 1.x.x
+
+* Add sentry to monitoring server
+
 ## Version 1.0.3
 
 * Fix for Allow to enable/disable client monitoring
