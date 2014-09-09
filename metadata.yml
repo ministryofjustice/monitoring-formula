@@ -6,3 +6,17 @@ dependencies:
 entry:
  - monitoring.server
  - monitoring.client
+
+
+# Grains we need to set
+grains:
+ roles:
+  - monitoring.server
+  - monitoring.client
+
+test_states:
+  monitoring_local:
+    host.present:
+      - ip: 127.0.0.1
+      - names:
+        - monitoring.local
