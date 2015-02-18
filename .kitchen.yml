@@ -6,14 +6,14 @@ provisioner:
   state_top:
     base:
       '*':
-        - monitoring
+        - monitoring.server
   omnibus_cachier: true
 
 platforms:
   - name: vagrant-ubuntu-12.04
     driver_plugin: vagrant
     driver_config:
-      pre_create_command: "salt-shaker shake root_formula=ministryofjustice/monitoring-formula"
+      pre_create_command: "salt-shaker shake"
       vagrantfile_erb: "kitchenvagrant/Vagrantfile.erb"
       cachier:
         scope: "box"
